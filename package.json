@@ -1,0 +1,13 @@
+{
+  "name": "classroomscreen-export",
+  "private": true,
+  "description": "PNG/PDF export for Classroomscreen boards, with an automatic health check",
+  "scripts": {
+    "build": "node build.js",
+    "check": "node check.js"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.52.0",
+    "terser": "^5.31.0"
+  }
+}
